@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../MIPS_IO.srcs/sources_1/imports/new/ALU.sv" \
+"../../../../MIPS_IO.srcs/sources_1/imports/new/ALU_adder.sv" \
+"../../../../MIPS_IO.srcs/sources_1/imports/new/ALU_dec.sv" \
+"../../../../MIPS_IO.srcs/sources_1/new/IO.sv" \
+"../../../../MIPS_IO.srcs/sources_1/imports/new/control_unit.sv" \
+"../../../../MIPS_IO.srcs/sources_1/new/dMemoryDecoder.sv" \
+"../../../../MIPS_IO.srcs/sources_1/imports/new/data_memory.sv" \
+"../../../../MIPS_IO.srcs/sources_1/imports/new/datapath.sv" \
+"../../../../MIPS_IO.srcs/sources_1/new/digit_led.sv" \
+"../../../../MIPS_IO.srcs/sources_1/new/getx.sv" \
+"../../../../MIPS_IO.srcs/sources_1/imports/new/instruction_memory.sv" \
+"../../../../MIPS_IO.srcs/sources_1/new/m7seg.sv" \
+"../../../../MIPS_IO.srcs/sources_1/imports/new/main_dec.sv" \
+"../../../../MIPS_IO.srcs/sources_1/imports/new/mips.sv" \
+"../../../../MIPS_IO.srcs/sources_1/imports/new/mips_top.sv" \
+"../../../../MIPS_IO.srcs/sources_1/imports/new/mux2_32.sv" \
+"../../../../MIPS_IO.srcs/sources_1/imports/new/mux2_5.sv" \
+"../../../../MIPS_IO.srcs/sources_1/imports/new/pc_plus4.sv" \
+"../../../../MIPS_IO.srcs/sources_1/imports/new/program_counter.sv" \
+"../../../../MIPS_IO.srcs/sources_1/imports/new/regfile.sv" \
+"../../../../MIPS_IO.srcs/sources_1/imports/new/signext.sv" \
+"../../../../MIPS_IO.srcs/sim_1/new/testbench.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

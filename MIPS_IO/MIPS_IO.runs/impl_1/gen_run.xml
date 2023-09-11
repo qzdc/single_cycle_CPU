@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1680612928">
+  <File Type="BITSTR-BMM" Name="mips_top_bd.bmm"/>
+  <File Type="ROUTE-PWR" Name="mips_top_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="mips_top.tcl"/>
+  <File Type="OPT-DCP" Name="mips_top_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="mips_top_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="mips_top_reports.tcl"/>
+  <File Type="OPT-DRC" Name="mips_top_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="mips_top.hwdef"/>
+  <File Type="PWROPT-DCP" Name="mips_top_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="mips_top_placed.dcp"/>
+  <File Type="PLACE-IO" Name="mips_top_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="mips_top_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="mips_top_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="mips_top_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="mips_top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="mips_top_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="mips_top.bin"/>
+  <File Type="PHYSOPT-DCP" Name="mips_top_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="mips_top.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="mips_top_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="mips_top_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="mips_top_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="mips_top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="mips_top_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="mips_top.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="mips_top_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="mips_top.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="mips_top_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="mips_top_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="mips_top.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="mips_top_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="mips_top_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="mips_top_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="mips_top_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="mips_top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="mips_top_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="mips_top_timing_summary_routed.rpx"/>
+  <File Type="RDI-RDI" Name="mips_top.vdi"/>
+  <File Type="ROUTE-CLK" Name="mips_top_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="mips_top_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="mips_top_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="mips_top_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="mips_top_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="mips_top_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="mips_top.bit"/>
+  <File Type="BITSTR-RBT" Name="mips_top.rbt"/>
+  <File Type="BITSTR-NKY" Name="mips_top.nky"/>
+  <File Type="PDI-FILE" Name="mips_top.pdi"/>
+  <File Type="RCFI_FILE" Name="mips_top.rcfi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="CFI_FILE" Name="mips_top.cfi"/>
+  <File Type="RNPI_FILE" Name="mips_top.rnpi"/>
+  <File Type="NPI_FILE" Name="mips_top.npi"/>
+  <File Type="RBD_FILE" Name="mips_top.rbd"/>
+  <File Type="BG-BGN" Name="mips_top.bgn"/>
+  <File Type="BG-DRC" Name="mips_top.drc"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/new/ALU.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MIPS/MIPS.srcs/sources_1/new/ALU.sv"/>
+        <Attr Name="ImportTime" Val="1680067898"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/ALU_adder.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MIPS/MIPS.srcs/sources_1/new/ALU_adder.sv"/>
+        <Attr Name="ImportTime" Val="1680050030"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/ALU_dec.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MIPS/MIPS.srcs/sources_1/new/ALU_dec.sv"/>
+        <Attr Name="ImportTime" Val="1680067934"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/IO.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/control_unit.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MIPS/MIPS.srcs/sources_1/new/control_unit.sv"/>
+        <Attr Name="ImportTime" Val="1680424381"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/dMemoryDecoder.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/data_memory.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MIPS/MIPS.srcs/sources_1/new/data_memory.sv"/>
+        <Attr Name="ImportTime" Val="1680429118"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/datapath.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MIPS/MIPS.srcs/sources_1/new/datapath.sv"/>
+        <Attr Name="ImportTime" Val="1680425915"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/digit_led.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/getx.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/instruction_memory.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MIPS/MIPS.srcs/sources_1/new/instruction_memory.sv"/>
+        <Attr Name="ImportTime" Val="1680431445"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/m7seg.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/main_dec.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MIPS/MIPS.srcs/sources_1/new/main_dec.sv"/>
+        <Attr Name="ImportTime" Val="1680094679"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mips.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MIPS/MIPS.srcs/sources_1/new/mips.sv"/>
+        <Attr Name="ImportTime" Val="1680424368"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mux2_32.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MIPS/MIPS.srcs/sources_1/new/mux2_32.sv"/>
+        <Attr Name="ImportTime" Val="1680048847"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mux2_5.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MIPS/MIPS.srcs/sources_1/new/mux2_5.sv"/>
+        <Attr Name="ImportTime" Val="1680048865"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/pc_plus4.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MIPS/MIPS.srcs/sources_1/new/pc_plus4.sv"/>
+        <Attr Name="ImportTime" Val="1679581788"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/program_counter.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MIPS/MIPS.srcs/sources_1/new/program_counter.sv"/>
+        <Attr Name="ImportTime" Val="1680426724"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/regfile.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MIPS/MIPS.srcs/sources_1/new/regfile.sv"/>
+        <Attr Name="ImportTime" Val="1680050548"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/signext.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MIPS/MIPS.srcs/sources_1/new/signext.sv"/>
+        <Attr Name="ImportTime" Val="1679577418"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mips_top.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MIPS/MIPS.srcs/sources_1/new/mips_top.sv"/>
+        <Attr Name="ImportTime" Val="1680099045"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/bin2bcd.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/testIO.dat">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/浅斟低唱/Desktop/testIO.dat"/>
+        <Attr Name="ImportTime" Val="1680606230"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="mips_top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Downloads/Nexys4DDR_Master_.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Vivado_project/exp6_2/exp6_2.srcs/constrs_1/imports/Downloads/Nexys4DDR_Master_.xdc"/>
+        <Attr Name="ImportTime" Val="1666584246"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

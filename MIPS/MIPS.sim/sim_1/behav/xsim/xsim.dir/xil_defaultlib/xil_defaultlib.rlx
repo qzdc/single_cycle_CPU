@@ -1,0 +1,22 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+D:/my_project/COS/2/MIPS/MIPS.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+D:/my_project/COS/2/MIPS/MIPS.srcs/sim_1/new/testbench.sv,1680423683,systemVerilog,,,,testbench,,,,,,,,
+D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/ALU.sv,1680067898,systemVerilog,,D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/ALU_adder.sv,,ALU,,,,,,,,
+D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/ALU_adder.sv,1680050030,systemVerilog,,D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/ALU_dec.sv,,ALU_adder,,,,,,,,
+D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/ALU_dec.sv,1680067934,systemVerilog,,D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/control_unit.sv,,ALU_dec,,,,,,,,
+D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/control_unit.sv,1680424381,systemVerilog,,D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/data_memory.sv,,control_unit,,,,,,,,
+D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/data_memory.sv,1680429118,systemVerilog,,D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/datapath.sv,,data_memory,,,,,,,,
+D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/datapath.sv,1680425915,systemVerilog,,D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/instruction_memory.sv,,datapath,,,,,,,,
+D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/instruction_memory.sv,1681261792,systemVerilog,,D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/main_dec.sv,,instruction_memory,,,,,,,,
+D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/main_dec.sv,1680094679,systemVerilog,,D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/mips.sv,,main_dec,,,,,,,,
+D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/mips.sv,1680424368,systemVerilog,,D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/mux2_32.sv,,mips,,,,,,,,
+D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/mips_top.sv,1680099045,systemVerilog,,D:/my_project/COS/2/MIPS/MIPS.srcs/sim_1/new/testbench.sv,,mips_top,,,,,,,,
+D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/mux2_32.sv,1680048847,systemVerilog,,D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/mux2_5.sv,,mux2_32,,,,,,,,
+D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/mux2_5.sv,1680048865,systemVerilog,,D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/pc_plus4.sv,,mux2_5,,,,,,,,
+D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/pc_plus4.sv,1679581788,systemVerilog,,D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/program_counter.sv,,pc_plus4,,,,,,,,
+D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/program_counter.sv,1680426724,systemVerilog,,D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/regfile.sv,,program_counter,,,,,,,,
+D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/regfile.sv,1680050548,systemVerilog,,D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/signext.sv,,regfile,,,,,,,,
+D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/signext.sv,1679577418,systemVerilog,,D:/my_project/COS/2/MIPS/MIPS.srcs/sources_1/new/mips_top.sv,,signext,,,,,,,,

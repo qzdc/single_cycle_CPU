@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Apr  5 20:26:34 2023
+# Process ID: 29504
+# Current directory: D:/my_project/COS/2/MIPS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9356 D:\my_project\COS\2\MIPS\MIPS.xpr
+# Log file: D:/my_project/COS/2/MIPS/vivado.log
+# Journal file: D:/my_project/COS/2/MIPS\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/my_project/COS/2/MIPS/MIPS.xpr
+launch_simulation
+source testbench.tcl
+close_sim

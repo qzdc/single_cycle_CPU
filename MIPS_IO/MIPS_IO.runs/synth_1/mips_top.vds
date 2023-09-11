@@ -1,0 +1,501 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Apr  4 20:55:31 2023
+# Process ID: 33892
+# Current directory: D:/my_project/COS/2/MIPS_IO/MIPS_IO.runs/synth_1
+# Command line: vivado.exe -log mips_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mips_top.tcl
+# Log file: D:/my_project/COS/2/MIPS_IO/MIPS_IO.runs/synth_1/mips_top.vds
+# Journal file: D:/my_project/COS/2/MIPS_IO/MIPS_IO.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mips_top.tcl -notrace
+Command: synth_design -top mips_top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12968 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 785.941 ; gain = 234.281
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'mips_top' [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/mips_top.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'mips' [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/mips.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'control_unit' [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/control_unit.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'main_dec' [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/main_dec.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'main_dec' (1#1) [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/main_dec.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'ALU_dec' [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/ALU_dec.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_dec' (2#1) [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/ALU_dec.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'control_unit' (3#1) [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/control_unit.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'datapath' [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/datapath.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'program_counter' [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/program_counter.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'program_counter' (4#1) [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/program_counter.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'pc_plus4' [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/pc_plus4.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'pc_plus4' (5#1) [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/pc_plus4.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'ALU_adder' [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/ALU_adder.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_adder' (6#1) [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/ALU_adder.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'mux2_32' [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/mux2_32.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'mux2_32' (7#1) [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/mux2_32.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/regfile.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (8#1) [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/regfile.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'mux2_5' [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/mux2_5.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'mux2_5' (9#1) [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/mux2_5.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'signext' [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/signext.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'signext' (10#1) [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/signext.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/ALU.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (11#1) [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/ALU.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'datapath' (12#1) [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/datapath.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'mips' (13#1) [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/mips.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'instruction_memory' [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/instruction_memory.sv:3]
+INFO: [Synth 8-3876] $readmem data file 'testIO.dat' is read successfully [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/instruction_memory.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'instruction_memory' (14#1) [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/instruction_memory.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'dMemoryDecoder' [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/new/dMemoryDecoder.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'data_memory' [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/data_memory.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'data_memory' (15#1) [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/data_memory.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'IO' [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/new/IO.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'IO' (16#1) [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/new/IO.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'getx' [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/new/getx.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'getx' (17#1) [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/new/getx.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'm7seg' [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/new/m7seg.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'digit_led' [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/new/digit_led.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'digit_led' (18#1) [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/new/digit_led.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'm7seg' (19#1) [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/new/m7seg.sv:4]
+WARNING: [Synth 8-3848] Net CLK in module/entity dMemoryDecoder does not have driver. [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/new/dMemoryDecoder.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'dMemoryDecoder' (20#1) [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/new/dMemoryDecoder.sv:4]
+WARNING: [Synth 8-689] width (32) of port connection 'addr' does not match port width (8) of module 'dMemoryDecoder' [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/mips_top.sv:18]
+INFO: [Synth 8-6155] done synthesizing module 'mips_top' (21#1) [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/sources_1/imports/new/mips_top.sv:3]
+WARNING: [Synth 8-3331] design IO has unconnected port pwritedata[31]
+WARNING: [Synth 8-3331] design IO has unconnected port pwritedata[30]
+WARNING: [Synth 8-3331] design IO has unconnected port pwritedata[29]
+WARNING: [Synth 8-3331] design IO has unconnected port pwritedata[28]
+WARNING: [Synth 8-3331] design IO has unconnected port pwritedata[27]
+WARNING: [Synth 8-3331] design IO has unconnected port pwritedata[26]
+WARNING: [Synth 8-3331] design IO has unconnected port pwritedata[25]
+WARNING: [Synth 8-3331] design IO has unconnected port pwritedata[24]
+WARNING: [Synth 8-3331] design IO has unconnected port pwritedata[23]
+WARNING: [Synth 8-3331] design IO has unconnected port pwritedata[22]
+WARNING: [Synth 8-3331] design IO has unconnected port pwritedata[21]
+WARNING: [Synth 8-3331] design IO has unconnected port pwritedata[20]
+WARNING: [Synth 8-3331] design IO has unconnected port pwritedata[19]
+WARNING: [Synth 8-3331] design IO has unconnected port pwritedata[18]
+WARNING: [Synth 8-3331] design IO has unconnected port pwritedata[17]
+WARNING: [Synth 8-3331] design IO has unconnected port pwritedata[16]
+WARNING: [Synth 8-3331] design IO has unconnected port pwritedata[15]
+WARNING: [Synth 8-3331] design IO has unconnected port pwritedata[14]
+WARNING: [Synth 8-3331] design IO has unconnected port pwritedata[13]
+WARNING: [Synth 8-3331] design IO has unconnected port pwritedata[12]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[31]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[30]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[29]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[28]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[27]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[26]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[25]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[24]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[23]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[22]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[21]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[20]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[19]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[18]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[17]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[16]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[15]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[14]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[13]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[12]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[11]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[10]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[9]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[8]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[1]
+WARNING: [Synth 8-3331] design data_memory has unconnected port a[0]
+WARNING: [Synth 8-3331] design datapath has unconnected port Instr[31]
+WARNING: [Synth 8-3331] design datapath has unconnected port Instr[30]
+WARNING: [Synth 8-3331] design datapath has unconnected port Instr[29]
+WARNING: [Synth 8-3331] design datapath has unconnected port Instr[28]
+WARNING: [Synth 8-3331] design datapath has unconnected port Instr[27]
+WARNING: [Synth 8-3331] design datapath has unconnected port Instr[26]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 859.535 ; gain = 307.875
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 859.535 ; gain = 307.875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 859.535 ; gain = 307.875
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 859.535 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/constrs_1/imports/Downloads/Nexys4DDR_Master_.xdc]
+Finished Parsing XDC File [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/constrs_1/imports/Downloads/Nexys4DDR_Master_.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/my_project/COS/2/MIPS_IO/MIPS_IO.srcs/constrs_1/imports/Downloads/Nexys4DDR_Master_.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mips_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/mips_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 954.520 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 954.520 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 954.520 ; gain = 402.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 954.520 ; gain = 402.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 954.520 ; gain = 402.859
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "RAM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 954.520 ; gain = 402.859
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
+	   3 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 7     
+	  14 Input     32 Bit        Muxes := 1     
+	  12 Input     10 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	  12 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module main_dec 
+Detailed RTL Component Info : 
++---Muxes : 
+	  12 Input     10 Bit        Muxes := 1     
+Module ALU_dec 
+Detailed RTL Component Info : 
++---Muxes : 
+	  12 Input      3 Bit        Muxes := 1     
+Module program_counter 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module pc_plus4 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module ALU_adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module mux2_32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module regfile 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module mux2_5 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
+Module instruction_memory 
+Detailed RTL Component Info : 
++---Muxes : 
+	  14 Input     32 Bit        Muxes := 1     
+Module IO 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+Module m7seg 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+Module dMemoryDecoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3917] design mips_top has port DP driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 954.520 ; gain = 402.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+-------------------+---------------+----------------+
+|Module Name | RTL Object        | Depth x Width | Implemented As | 
++------------+-------------------+---------------+----------------+
+|digit_led   | a2g               | 32x7          | LUT            | 
+|mips_top    | Mem/M7Seg/led/a2g | 32x7          | LUT            | 
++------------+-------------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
++------------+------------------------------+-----------+----------------------+----------------+
+|Module Name | RTL Object                   | Inference | Size (Depth x Width) | Primitives     | 
++------------+------------------------------+-----------+----------------------+----------------+
+|mips_top    | Mem/DataMemory/RAM_reg       | Implied   | 64 x 32              | RAM64X1S x 32	 | 
+|mips_top    | Mips/DataPath/RegFile/rf_reg | Implied   | 32 x 32              | RAM32M x 12	   | 
++------------+------------------------------+-----------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 954.520 ; gain = 402.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 1003.699 ; gain = 452.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping	Report
++------------+------------------------------+-----------+----------------------+----------------+
+|Module Name | RTL Object                   | Inference | Size (Depth x Width) | Primitives     | 
++------------+------------------------------+-----------+----------------------+----------------+
+|mips_top    | Mem/DataMemory/RAM_reg       | Implied   | 64 x 32              | RAM64X1S x 32	 | 
+|mips_top    | Mips/DataPath/RegFile/rf_reg | Implied   | 32 x 32              | RAM32M x 12	   | 
++------------+------------------------------+-----------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 1003.699 ; gain = 452.039
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 1004.605 ; gain = 452.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 1004.605 ; gain = 452.945
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 1004.605 ; gain = 452.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 1004.605 ; gain = 452.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 1004.605 ; gain = 452.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 1004.605 ; gain = 452.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |    25|
+|3     |LUT1     |     2|
+|4     |LUT2     |    33|
+|5     |LUT3     |    17|
+|6     |LUT4     |    60|
+|7     |LUT5     |   145|
+|8     |LUT6     |    81|
+|9     |MUXF7    |    36|
+|10    |RAM32M   |    12|
+|11    |RAM64X1S |    32|
+|12    |FDCE     |    27|
+|13    |FDRE     |    42|
+|14    |IBUF     |    20|
+|15    |OBUF     |    16|
++------+---------+------+
+
+Report Instance Areas: 
++------+---------------------+----------------+------+
+|      |Instance             |Module          |Cells |
++------+---------------------+----------------+------+
+|1     |top                  |                |   549|
+|2     |  Mem                |dMemoryDecoder  |   137|
+|3     |    DataMemory       |data_memory     |    32|
+|4     |    M7Seg            |m7seg           |    50|
+|5     |    ioread           |IO              |    55|
+|6     |  Mips               |mips            |   375|
+|7     |    DataPath         |datapath        |   375|
+|8     |      ALUAdder       |ALU_adder       |     2|
+|9     |      ALU_           |ALU             |    56|
+|10    |      PC_plus4       |pc_plus4        |     2|
+|11    |      ProgramCounter |program_counter |   303|
+|12    |      RegFile        |regfile         |    12|
++------+---------------------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 1004.605 ; gain = 452.945
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:26 . Memory (MB): peak = 1004.605 ; gain = 357.961
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 1004.605 ; gain = 452.945
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1016.699 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 105 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1016.699 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 44 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 12 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 32 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+56 Infos, 55 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:34 . Memory (MB): peak = 1016.699 ; gain = 718.672
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1016.699 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/my_project/COS/2/MIPS_IO/MIPS_IO.runs/synth_1/mips_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file mips_top_utilization_synth.rpt -pb mips_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Apr  4 20:56:08 2023...
